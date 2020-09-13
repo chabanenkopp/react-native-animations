@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonJS",
+    "target": "es6",
+    "baseUrl": "./src",
+    "allowSyntheticDefaultImports": true,
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "typeAcquisition": {
+    "include": [
+      "jest"
+    ]
+  }
+}
