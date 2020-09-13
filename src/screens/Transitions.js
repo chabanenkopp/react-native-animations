@@ -14,7 +14,7 @@ const Transitions = () => {
   return (
     <StyledScrollView>
       <Text color={COLORS.BLACK} mt="40px">
-        TEST
+        TEST 2
       </Text>
     </StyledScrollView>
   )
