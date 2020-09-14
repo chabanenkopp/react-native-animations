@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/native'
+import FeatherIcon from 'react-native-vector-icons/Feather'
 import Text from 'components/Text'
 import { COLORS } from 'theme'
 
@@ -16,6 +17,7 @@ const Transitions = () => {
       <Text color={COLORS.BLACK} mt="40px">
         TEST 2
       </Text>
+      <FeatherIcon name="check" color={COLORS.BLACK} size={24} />
     </StyledScrollView>
   )
 }
